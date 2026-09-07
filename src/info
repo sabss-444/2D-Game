@@ -1,0 +1,26 @@
+inheritance = a mechanisism where a new class is based on an existing class inheriting its fields, methods and hebaviours.
+-> where i have used that... extendig walker. the hero class automaticaly gets
+allte built in pyshics of the city engine
+
+purpose of super = this is constructor of the parent class (walker). it
+makes sure the hero is correcty initialized inside the specfifc world that
+i passed in as a parametre
+
+what is a constuctor?
+this is  specialmethod of a class or structure in object oriented programming
+that initializes a newly created object of that type. when an object is created,
+the constructor is called
+
+what is encapsulation?
+this is an OOP principle that binds data (attributes) and methods (function)
+together into a single unit, known as a class while restricting directing
+direct access to some of an objects component
+
+questions they might ask for menu.java:
+why did you put the start button in BorderLayout.SOUTH?
+having the button at the bottom of the screen is the most intuitive for the playr
+
+How does the Menu connect to the actual Game?
+inside the actionlistener, i call new Game(). this triggers the game constructor which sets up
+the city engine World and UserView. this effectively transitions the application from
+the UI state to the Game state.

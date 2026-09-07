@@ -1,0 +1,62 @@
+AI usage declaration
+
+line 20 hero.java -> i had to use chatgpt
+to figure out how to get my character to stop sliding once the
+button was let go off.
+
+GameWorld.java -> line 24 ~ i had a problem with the drawing
+of the lava as i struggled with increasing the width using
+the city engine so i used gemini ai to figure out what to do
+i coded the loop myself but used AI for the idea of doing so
+
+GameWorld->line27.....
+i have uses ai to research how to impleent my lava into the
+game. i struggld at first with the hitbox of the lava as
+it was higher than the drawing. it helped me understand how sensors
+work and how i can have my character fall through the lava.
+the sensor allowed me to remove the pysical fixture from the staticbody
+and replace it with the overlap detection. orriginally i had used the
+code from gemini but it told me to use getsensor which doesnt work
+with the city engine so with the help of chatgpt i found out that i had
+to use sensor .... sensor()..;
+
+GameWorld -> line 34...
+when i made the lava a sensor i then had another issue of my character
+falling through the sceen. i had used AI to help me figue out an option
+to avoid that (it only helped with the idea of another platform but i
+coded it myself) which was adding another platform
+
+GameWorld -> line 40&41....
+i consulted ai to help me change the colour of hidden platform
+it suggested the colour which i had then used the peice of code
+to change the colour so it seemed like it was hidden. after i figured
+out how to change the platfrom colour i used the same code for all the platforms
+but i did not need ai for that.
+
+Menu ->line 30-40
+i had used ai to help with the structure of Menu.Java class using the swing
+libary (which i did not know about). and i specifically used ai to understand
+how to link a JButton action listener and how to use dispose() method
+to close the menu once the game began.
+
+i did use ai as a guide for encsulation and for the organisation
+of the classes. i had another issue with the background of my game
+where i couldnt add it in the GameWorld which i then consulted
+AI to help with said problem and realised i had to create a seperate class
+
+there were a few instance where i had used AI to help debug my code
+eg controller class line 6 i had used public calss controller and
+with the use of AI found out that it had to be public class controller extends..
+
+GameWorld line 20..
+i had a similar problem with the star when it came to the hitbox
+i had used AI to help figure out the right size so it wasnt too big
+and also to increase the size i did not know you could add the number
+after the the code for the data file to increase it magnitude
+(line 23)
+
+MyView.Java line 21-26
+i pasted my code into gemini ai and the project brief to see what
+else i was missing and realised that i havent added the paintforgroun
+and with the help of AI i coded that. (i only needed help on where to
+insert it and with the realisation that it had to be there)
